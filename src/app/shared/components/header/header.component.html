@@ -1,0 +1,26 @@
+<header class="header">
+  <h2 class="header__title">Naped</h2>
+
+  <nav class="header__nav" [ngClass]="{ active: showMobileMenu }">
+    <button
+      id="header__btn-mobile"
+      (click)="openMobileMenu()"
+      aria-live="showMobileMenu"
+      aria-controls="header__ul"
+      aria-haspopup="true"
+      [attr.aria-label]="showMobileMenu ? 'Abrir menu' : 'Fechar menu'"
+    >
+      Menu
+      <span id="header__btn-mobile--hamburguer"></span>
+    </button>
+
+    <ul class="header__ul" role="menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Séries</a></li>
+      <li><a href="#">Filmes</a></li>
+      <li><a href="#">Animes</a></li>
+      <li><a href="#">Games</a></li>
+    </ul>
+    <button class="header__button-my-account">Minha conta</button>
+  </nav>
+</header>

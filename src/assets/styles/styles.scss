@@ -1,0 +1,18 @@
+@import "partials/typography";
+@import "partials/variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $dark;
+}
+
+.general-container {
+  max-width: 1600px;
+  min-height: 100vh;
+  margin: 0 auto;
+}
