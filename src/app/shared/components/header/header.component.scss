@@ -113,13 +113,11 @@
         background-color: $purple-light;
         color: $dark;
       }
-
-      @media (max-width: 900px) {
-        display: none;
-      }
     }
 
     @media (max-width: 900px) {
+      gap: 2rem;
+
       &.active .header__ul {
         visibility: visible;
         height: calc(100vh - 89px);
