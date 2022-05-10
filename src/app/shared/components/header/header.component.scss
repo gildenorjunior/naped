@@ -1,13 +1,11 @@
-@import "./../../../../assets/styles/partials/typography";
-
-@import "./../../../../assets/styles/partials/variables";
+@import "./../../../../assets/styles/styles.scss";
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 1.8rem;
+  margin-bottom: 30px;
 
   .header__title {
     font-family: "Lexend Deca", sans-serif;
