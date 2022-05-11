@@ -1,0 +1,45 @@
+@import "./../../../../assets/styles/styles.scss";
+
+.card--with-label {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2.1rem;
+  font-family: "Lexend Deca", sans-serif;
+  color: $white;
+
+  padding: 15px 30px;
+}
+
+.card--with-out-label {
+  display: flex;
+  align-items: flex-end;
+
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2.1rem;
+  font-family: "Lexend Deca", sans-serif;
+  color: $white;
+
+  padding: 15px 30px;
+}
+
+.label-on-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 80px;
+  height: 25px;
+  border-radius: 3px;
+
+  background-color: $purple-light;
+
+  font-size: 0.875rem;
+  font-weight: 400;
+  font-family: "Lexend Deca", sans-serif;
+  text-align: center;
+}

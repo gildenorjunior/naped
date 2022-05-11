@@ -1,0 +1,12 @@
+<div
+  [ngClass]="labelOnCard ? 'card--with-label' : 'card--with-out-label'"
+  [ngStyle]="{
+    'background-image': 'url(' + image + imageWidth + '/' + imageHeight + ')',
+    width: imageWidth + 'px',
+    height: imageHeight + 'px'
+  }"
+>
+  <div class="label-on-card" *ngIf="labelOnCard">{{ label }}</div>
+
+  <span *ngIf="captionOnCard">{{ caption }}</span>
+</div>
