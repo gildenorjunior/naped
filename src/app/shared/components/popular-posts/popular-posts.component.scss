@@ -1,0 +1,54 @@
+@import "../../../../assets/styles/styles.scss";
+
+.container {
+  padding: 0 20px;
+
+  h3 {
+    font-family: "Lexend Deca";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+    color: $white;
+
+    padding-bottom: 13px;
+    margin-bottom: 15px;
+
+    border-bottom: 2px solid $purple-light;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 345px;
+    height: 250px;
+    padding: 10px;
+    margin-bottom: 47px;
+    background-image: url("https://picsum.photos/345/250");
+
+    .card-span {
+      width: 70px;
+      height: 20px;
+      border-radius: 3px;
+      background-color: $purple-light;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      font-family: "Lexend Deca";
+      font-weight: 400;
+      font-size: 12px;
+      color: $white;
+    }
+
+    span {
+      font-family: "Lexend Deca";
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 20px;
+      color: $white;
+    }
+  }
+}

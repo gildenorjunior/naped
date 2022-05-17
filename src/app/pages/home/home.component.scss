@@ -22,3 +22,16 @@
   font-family: "Inter", sans-serif;
   font-weight: 500;
 }
+
+.container {
+  display: flex;
+  width: 100%;
+
+  .all-posts-container {
+    width: 70%;
+  }
+
+  .popular-posts-container {
+    width: 30%;
+  }
+}
